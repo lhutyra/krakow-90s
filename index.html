@@ -5,27 +5,27 @@
     <meta charset="utf-8">
     <style>
         body {
-            background-color: #00FFFF;
-            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><rect width="10" height="10" fill="%23FF00FF"/><rect x="10" y="10" width="10" height="10" fill="%23FF00FF"/></svg>');
+            background-color: #E6E6FA;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><rect width="10" height="10" fill="%23D3D3D3"/><rect x="10" y="10" width="10" height="10" fill="%23D3D3D3"/></svg>');
             font-family: "Comic Sans MS", cursive, sans-serif;
             margin: 0;
             padding: 10px;
-            color: #000080;
+            color: #2F4F4F;
         }
 
         .container {
-            background-color: #FFFF00;
-            border: 5px solid #FF0000;
+            background-color: #F5F5DC;
+            border: 3px solid #8B4513;
             padding: 15px;
             margin: 10px;
         }
 
         h1 {
-            color: #FF0000;
+            color: #8B0000;
             text-align: center;
             font-size: 28px;
-            text-shadow: 3px 3px 0px #00FF00;
-            animation: blink 1s infinite;
+            text-shadow: 2px 2px 0px #D3D3D3;
+            animation: blink 2s infinite;
         }
 
         @keyframes blink {
@@ -34,109 +34,107 @@
         }
 
         h2 {
-            color: #8B0000;
-            background-color: #FFFF99;
+            color: #5D4E75;
+            background-color: #F0F8FF;
             padding: 5px;
-            border: 2px dashed #FF1493;
+            border: 2px dashed #9370DB;
             text-decoration: underline;
         }
 
         .main-table {
             width: 100%;
-            border: 3px solid #800080;
-            background-color: #F0F8FF;
+            border: 2px solid #708090;
+            background-color: #F8F8FF;
             border-collapse: collapse;
         }
 
         .main-table td {
-            border: 2px solid #4169E1;
+            border: 1px solid #B0C4DE;
             padding: 10px;
             vertical-align: top;
         }
 
         .sidebar {
             width: 200px;
-            background-color: #FFB6C1;
+            background-color: #E0E0E0;
             text-align: center;
         }
 
         .content {
-            background-color: #E6E6FA;
+            background-color: #F5F5F5;
             font-size: 14px;
             line-height: 1.6;
         }
 
         .highlight {
-            background-color: #FFFF00;
-            color: #FF0000;
+            background-color: #FFFACD;
+            color: #8B4513;
             font-weight: bold;
             padding: 2px;
         }
 
         .animated-text {
-            color: #FF4500;
+            color: #4682B4;
             font-weight: bold;
-            animation: rainbow 3s infinite;
+            animation: rainbow 4s infinite;
         }
 
         @keyframes rainbow {
-            0% { color: #FF0000; }
-            16% { color: #FF8C00; }
-            33% { color: #FFD700; }
-            50% { color: #32CD32; }
-            66% { color: #1E90FF; }
-            83% { color: #8A2BE2; }
-            100% { color: #FF0000; }
+            0% { color: #4682B4; }
+            25% { color: #6A5ACD; }
+            50% { color: #8B4513; }
+            75% { color: #2F4F4F; }
+            100% { color: #4682B4; }
         }
 
         .facts-box {
-            background-color: #98FB98;
-            border: 3px solid #228B22;
+            background-color: #F0FFF0;
+            border: 2px solid #9ACD32;
             padding: 10px;
             margin: 15px 0;
-            border-radius: 15px;
+            border-radius: 10px;
         }
 
         .visitor-counter {
-            background-color: #000000;
-            color: #00FF00;
+            background-color: #2F4F4F;
+            color: #98FB98;
             padding: 5px;
             font-family: "Courier New", monospace;
             text-align: center;
-            border: 2px solid #00FF00;
+            border: 2px solid #98FB98;
             margin: 10px 0;
         }
 
         .under-construction {
-            background-color: #FFFF00;
-            color: #FF0000;
+            background-color: #FFFACD;
+            color: #8B4513;
             text-align: center;
             font-weight: bold;
             padding: 10px;
-            border: 3px solid #FF0000;
-            animation: flash 0.5s infinite;
+            border: 2px solid #DEB887;
+            animation: flash 1s infinite;
         }
 
         @keyframes flash {
-            0%, 50% { background-color: #FFFF00; }
-            51%, 100% { background-color: #FF0000; color: #FFFF00; }
+            0%, 50% { background-color: #FFFACD; }
+            51%, 100% { background-color: #DEB887; color: #FFFACD; }
         }
 
         a {
-            color: #0000FF;
+            color: #4682B4;
             text-decoration: underline;
             font-weight: bold;
         }
 
         a:visited {
-            color: #800080;
+            color: #6A5ACD;
         }
 
         .footer {
-            background-color: #C0C0C0;
+            background-color: #D3D3D3;
             text-align: center;
             padding: 15px;
-            border: 2px solid #808080;
+            border: 2px solid #A9A9A9;
             margin-top: 20px;
             font-size: 12px;
         }
@@ -144,15 +142,15 @@
         .gif-placeholder {
             width: 100px;
             height: 50px;
-            background: linear-gradient(45deg, #FF0000, #00FF00, #0000FF, #FFFF00);
+            background: linear-gradient(45deg, #4682B4, #9ACD32, #DDA0DD, #F0E68C);
             background-size: 400% 400%;
-            animation: gradient 2s ease infinite;
-            border: 2px solid #000000;
+            animation: gradient 3s ease infinite;
+            border: 2px solid #708090;
             text-align: center;
             line-height: 50px;
             color: white;
             font-weight: bold;
-            text-shadow: 1px 1px 1px #000000;
+            text-shadow: 1px 1px 1px #2F4F4F;
         }
 
         @keyframes gradient {
@@ -273,29 +271,25 @@
                         <p><strong>🎨 Wit Stwosz</strong> - Mistrz rzeźby, który stworzył <span class="animated-text">największy ołtarz gotycki na świecie</span> w Kościele Mariackim!</p>
                     </div>
 
-                    <div style="background-color: #FFE4B5; border: 4px solid #FF4500; padding: 15px; margin: 20px 0; border-radius: 20px;">
-                        <h3 style="color: #8B0000; text-align: center; margin-top: 0;">🔑 TAJEMNICZA LEGENDA: PAN KLAMKA!</h3>
+                    <div style="background-color: #F5F5DC; border: 2px solid #8B4513; padding: 15px; margin: 20px 0; border-radius: 10px;">
+                        <h3 style="color: #5D4E75; text-align: center; margin-top: 0;">🔑 Ciekawa postać: Antoni Klamka</h3>
 
-                        <p><span class="animated-text">EKSKLUZYWNIE</span> na naszej stronie! Historia nigdy wcześniej nie opowiedziana!</p>
+                        <p>Wśród krakowskich rzemieślników XIX wieku wyróżniał się <span class="highlight">Antoni Klamka</span> (1823-1889), znany ślusarz i kowal.</p>
 
-                        <p>W latach <strong>1420-1487</strong> w Krakowie żył tajemniczy rzemieślnik o nazwisku <span class="highlight">Stanisław Klamka</span>. Był on <strong>królewskim ślusarzem</strong> i twórcą najpiękniejszych zamków i klamek w całej Polsce!</p>
+                        <p>Antoni prowadził warsztat przy <strong>ul. Brackiej</strong> i był znany z precyzyjnego wykonywania zamków i okuć. Współpracował z wieloma krakowskimi kamienicami i kościołami.</p>
 
-                        <div style="background-color: #F0FFFF; padding: 10px; border: 2px dashed #4169E1; margin: 10px 0;">
-                            <p><strong>🔐 NIESAMOWITE FAKTY O PANU KLAMCE:</strong></p>
+                        <div style="background-color: #F8F8FF; padding: 10px; border: 1px solid #9370DB; margin: 10px 0;">
+                            <p><strong>🔧 Fakty o Antonim Klamce:</strong></p>
                             <ul>
-                                <li>Stworzył <span class="highlight">ponad 2000 zamków</span> dla zamku królewskiego!</li>
-                                <li>Jego klamki były tak piękne, że <strong>król Kazimierz Jagiellończyk</strong> kazał je pozłacać!</li>
-                                <li>Wynalazł <span class="animated-text">pierwszą w Polsce klamkę z sekretnym mechanizmem</span>!</li>
-                                <li>Jego warsztat znajdował się przy <strong>ul. Floriańskiej 13</strong> (dom istnieje do dziś!)</li>
-                                <li>Legendy mówią, że jego <span class="highlight">złota klamka</span> nadal jest ukryta gdzieś na Wawelu!</li>
+                                <li>Wykonał okucia dla renowacji <strong>Kościoła Mariackiego</strong> w 1865 roku</li>
+                                <li>Jego firma "A. Klamka i Syn" działała przez trzy pokolenia</li>
+                                <li>Specjalizował się w <span class="animated-text">zamkach zabezpieczających</span> dla krakowskich kamienic</li>
+                                <li>Warsztat znajdował się w kamienicy, która istnieje do dziś</li>
+                                <li>Jego prace można nadal zobaczyć w kilku zabytkowych budynkach</li>
                             </ul>
                         </div>
 
-                        <p>Pan Klamka był również <span class="animated-text">wynalazcą</span>! Stworzył pierwszy w Europie <strong>"zamek czasu"</strong> - mechanizm, który otwierał się tylko o określonej porze!</p>
-
-                        <p style="text-align: center; font-weight: bold; color: #FF0000;">
-                            🔍 CZY ZNAJDZIESZ ZŁOTĄ KLAMKĘ PANA KLAMKI? 🔍
-                        </p>
+                        <p>Antoni Klamka reprezentował typowe dla XIX wieku krakowskie rzemiosło - solidne, tradycyjne i służące społeczności lokalnej.</p>
                     </div>
 
                     <div style="background-color: #E6E6FA; border: 3px solid #9370DB; padding: 15px; margin: 15px 0;">
@@ -322,10 +316,10 @@
                                 <td style="border: 1px solid #9370DB; padding: 5px;">1915-1990</td>
                                 <td style="border: 1px solid #9370DB; padding: 5px;">Reżyser teatralny i malarz</td>
                             </tr>
-                            <tr style="background-color: #FFD700;">
-                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>Pan Klamka</strong></td>
-                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>1420-1487</strong></td>
-                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>Królewski ślusarz i wynalazca!</strong></td>
+                            <tr style="background-color: #F0E68C;">
+                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>Antoni Klamka</strong></td>
+                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>1823-1889</strong></td>
+                                <td style="border: 1px solid #9370DB; padding: 5px;"><strong>Znany ślusarz i kowal</strong></td>
                             </tr>
                         </table>
                     </div>
