@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>*** HISTORIA KRAKOWA *** - Strona w stylu lat 90's!</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #00FFFF;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><rect width="10" height="10" fill="%23FF00FF"/><rect x="10" y="10" width="10" height="10" fill="%23FF00FF"/></svg>');
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 10px;
+            color: #000080;
+        }
+
+        .container {
+            background-color: #FFFF00;
+            border: 5px solid #FF0000;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        h1 {
+            color: #FF0000;
+            text-align: center;
+            font-size: 28px;
+            text-shadow: 3px 3px 0px #00FF00;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+
+        h2 {
+            color: #8B0000;
+            background-color: #FFFF99;
+            padding: 5px;
+            border: 2px dashed #FF1493;
+            text-decoration: underline;
+        }
+
+        .main-table {
+            width: 100%;
+            border: 3px solid #800080;
+            background-color: #F0F8FF;
+            border-collapse: collapse;
+        }
+
+        .main-table td {
+            border: 2px solid #4169E1;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #FFB6C1;
+            text-align: center;
+        }
+
+        .content {
+            background-color: #E6E6FA;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background-color: #FFFF00;
+            color: #FF0000;
+            font-weight: bold;
+            padding: 2px;
+        }
+
+        .animated-text {
+            color: #FF4500;
+            font-weight: bold;
+            animation: rainbow 3s infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: #FF0000; }
+            16% { color: #FF8C00; }
+            33% { color: #FFD700; }
+            50% { color: #32CD32; }
+            66% { color: #1E90FF; }
+            83% { color: #8A2BE2; }
+            100% { color: #FF0000; }
+        }
+
+        .facts-box {
+            background-color: #98FB98;
+            border: 3px solid #228B22;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 15px;
+        }
+
+        .visitor-counter {
+            background-color: #000000;
+            color: #00FF00;
+            padding: 5px;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            border: 2px solid #00FF00;
+            margin: 10px 0;
+        }
+
+        .under-construction {
+            background-color: #FFFF00;
+            color: #FF0000;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            border: 3px solid #FF0000;
+            animation: flash 0.5s infinite;
+        }
+
+        @keyframes flash {
+            0%, 50% { background-color: #FFFF00; }
+            51%, 100% { background-color: #FF0000; color: #FFFF00; }
+        }
+
+        a {
+            color: #0000FF;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #800080;
+        }
+
+        .footer {
+            background-color: #C0C0C0;
+            text-align: center;
+            padding: 15px;
+            border: 2px solid #808080;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+        .gif-placeholder {
+            width: 100px;
+            height: 50px;
+            background: linear-gradient(45deg, #FF0000, #00FF00, #0000FF, #FFFF00);
+            background-size: 400% 400%;
+            animation: gradient 2s ease infinite;
+            border: 2px solid #000000;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #000000;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body></body>
+    <div class="container">
+        <h1>🏰 HISTORIA KRAKOWA 🏰</h1>
+        <p style="text-align: center; font-size: 16px; color: #8B0000;">
+            <strong>Witamy na najlepszej stronie o Krakowie w całym Internecie!</strong>
+        </p>
+
+        <div class="visitor-counter">
+            *** LICZNIK ODWIEDZIN: 001337 ***
+        </div>
+
+        <table class="main-table">
+            <tr>
+                <td class="sidebar">
+                    <h2 style="font-size: 16px;">MENU</h2>
+                    <div class="gif-placeholder">NOWY!</div>
+                    <p><a href="#historia">Historia</a></p>
+                    <p><a href="#zabytki">Zabytki</a></p>
+                    <p><a href="#ciekawostki">Ciekawostki</a></p>
+                    <p><a href="#galeria">Galeria</a></p>
+
+                    <div class="gif-placeholder" style="margin-top: 20px;">HOT!</div>
+
+                    <div style="background-color: #FFE4E1; padding: 8px; margin: 10px 0; border: 1px solid #FF69B4;">
+                        <strong>SPRAWDŹ TAKŻE:</strong><br>
+                        <a href="#">Warszawa</a><br>
+                        <a href="#">Gdańsk</a><br>
+                        <a href="#">Wrocław</a>
+                    </div>
+                </td>
+
+                <td class="content">
+                    <h2 id="historia">🏛️ Historia Krakowa</h2>
+
+                    <p>Kraków to <span class="highlight">najstarsze miasto Polski</span> i była stolica naszego kraju przez ponad 500 lat! Miasto zostało założone w <span class="animated-text">VII wieku</span> i od tego czasu przeżyło wiele wspaniałych momentów w historii.</p>
+
+                    <div class="facts-box">
+                        <h3 style="color: #006400; margin-top: 0;">💡 SUPER FAKTY O KRAKOWIE!</h3>
+                        <ul>
+                            <li><strong>Rok założenia:</strong> VII wiek</li>
+                            <li><strong>Prawa miejskie:</strong> 1257 rok</li>
+                            <li><strong>Stolica Polski:</strong> 1038-1596</li>
+                            <li><strong>Ludność:</strong> około 780 000 mieszkańców</li>
+                            <li><strong>Powierzchnia:</strong> 327 km²</li>
+                        </ul>
+                    </div>
+
+                    <h2 id="zabytki">🏰 Najważniejsze zabytki</h2>
+
+                    <p><span class="animated-text">Wawel</span> - to najsłynniejszy zabytek Krakowa! Zamek królewski i katedra, gdzie koronowano polskich królów. <span class="highlight">Smok Wawelski</span> to legenda, która przyciąga turystów z całego świata!</p>
+
+                    <p><strong>Rynek Główny</strong> - największy średniowieczny rynek w Europie! W centrum stoi <span class="highlight">Sukiennice</span>, a z wieży Mariackiej co godzinę słychać hejnał.</p>
+
+                    <table style="width: 100%; border: 2px solid #8B4513; background-color: #FFF8DC;">
+                        <tr style="background-color: #DEB887;">
+                            <td style="border: 1px solid #8B4513; padding: 8px; font-weight: bold;">Zabytek</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px; font-weight: bold;">Rok budowy</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px; font-weight: bold;">Ciekawostka</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Katedra Wawelska</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">XIV wiek</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Dzwon Zygmunt waży 11 ton!</td>
+                        </tr>
+                        <tr></tr>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Kościół Mariacki</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">XIII wiek</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Słynny ołtarz Wita Stwosza</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Barbakan</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">1498 rok</td>
+                            <td style="border: 1px solid #8B4513; padding: 8px;">Jeden z 3 takich w Europie!</td>
+                        </tr>
+                    </table>
+
+                    <h2 id="ciekawostki">🌟 Niesamowite ciekawostki!</h2>
+
+                    <div style="background-color: #E0FFFF; border: 3px solid #4682B4; padding: 15px; margin: 15px 0;">
+                        <p><span class="animated-text">CZY WIESZ, ŻE...</span></p>
+                        <ul>
+                            <li>W Krakowie studiował <strong>Mikołaj Kopernik</strong> - ten, który odkrył, że Ziemia krąży wokół Słońca! 🌍</li>
+                            <li>Rynek Główny ma aż <span class="highlight">40 000 m²</span> powierzchni!</li>
+                            <li>Pod Rynkiem znajdują się <strong>podziemne trasy turystyczne</strong> z średniowiecznymi pozostałościami!</li>
+                            <li>Hejnał mariacki jest grany <span class="animated-text">co godzinę</span> od 700 lat!</li>
+                            <li>Kraków ma <strong>więcej barów mlecznych</strong> niż McDonald's! 🥛</li>
+                        </ul>
+                    </div>
+
+                    <h2 id="galeria">📸 Galeria (wkrótce!)</h2>
+
+                    <div class="under-construction">
+                        🚧 STRONA W BUDOWIE 🚧<br>
+                        Wkrótce dodamy super zdjęcia!
+                    </div>
+
+                    <div style="text-align: center; margin: 20px 0;">
+                        <div class="gif-placeholder" style="display: inline-block; margin: 5px;">COOL!</div>
+                        <div class="gif-placeholder" style="display: inline-block; margin: 5px;">WOW!</div>
+                        <div class="gif-placeholder" style="display: inline-block; margin: 5px;">NEW!</div>
+                    </div>
+
+                    <p style="text-align: center; font-size: 18px; color: #FF1493;">
+                        <strong>Kraków to najpiękniejsze miasto w Polsce! 💖</strong>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p><strong>© 1998 Historia Krakowa</strong></p>
+        <p>Najlepsza strona o Krakowie w całym Internecie!</p>
+        <p>📧 Email: <a href="mailto:admin@krakow90s.pl">admin@krakow90s.pl</a></p>
+        <p>🌐 Odwiedź nas również na <a href="#">GeoCities</a>!</p>
+        <p style="font-size: 10px; color: #666;">
+            Najlepiej oglądać w Netscape Navigator 4.0 lub Internet Explorer 4.0<br>
+            Rozdzielczość: 800x600 | Liczba kolorów: 256
+        </p>
+    </div>
+</body>
+</html>
